@@ -15,5 +15,29 @@ namespace OperationsLibrary
             int result = numerator / denominator;
             return result;
         }
+
+        public static int Multiply(int numA, int numB)
+        {
+            int result = numA * numB;
+            return result;
+        }
+
+        public static int Add(int numA, int numB)
+        {
+            int result = numA + numB;
+            return result;
+        }
+
+        public static int Subtract(int numA, int numB)
+        {
+            int result = numA - numB;
+            return result;
+        }
+
+        public static int Remainder(int numA, int numB)
+        {
+            int result = numA % numB;
+            return result;
+        }
     }
 }
